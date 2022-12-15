@@ -22,7 +22,7 @@ public class Main {
 
 	private static String[] docRoot(String[] args) {
 		
-		for (int i = 0; i <=args.length; i++) {
+		for (int i = 0; i < args.length; i++) {
 			if (args[i].equals("--docRoot")){
 				return args[i+1].split(":");
 			}
